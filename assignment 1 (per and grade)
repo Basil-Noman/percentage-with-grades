@@ -1,0 +1,18 @@
+def per(mobt,tmarks):
+    return mobt/tmarks*100
+a=int(input("marks obtained: "))    
+b=int(input("total marks: "))
+result=per(mobt=a,tmarks=b)
+print(result)
+if result>=90:
+    print("A*")
+elif result>=80:
+    print("A")
+elif result>=70:
+    print("B")
+elif result>=60:
+    print("C")
+elif result>=50:
+    print("D")
+else:
+    print("fail")
